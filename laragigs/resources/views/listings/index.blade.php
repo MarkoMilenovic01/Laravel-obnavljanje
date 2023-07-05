@@ -9,6 +9,9 @@
             <x-card-content :listing="$listing" />
         @endforeach
     </div>
+    <div class="mt-6 px-4">
+        {{$listings->links()}}
+    </div>
 </main>
 
 
